@@ -58,7 +58,12 @@ public class SecurityConfig {
                                 "/api/auth/register/admin",
                                 "/api/auth/register/staff",
                                 "/api/auth/login",
-                                "/api/auth/refresh"
+                                "/api/auth/refresh",
+                                "/auth/register",
+                                "/auth/register/admin",
+                                "/auth/register/staff",
+                                "/auth/login",
+                                "/auth/refresh"
                         ).permitAll()
                         // Swagger / OpenAPI documentation
                         .requestMatchers(
